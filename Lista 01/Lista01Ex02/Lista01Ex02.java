@@ -22,7 +22,7 @@ public class Lista01Ex02 {
         System.out.println("-------Conversor de Temperatura-------");
         System.out.print("Digite a temperatura em celsius: ");
         float c = l.nextFloat();
-        float fah =(float) ((c*1.8)+32);
+        float fah =(float) (c*1.8)+32);
         System.out.printf("A temperatura em Fahrenheit é %.2f",fah);
         
     }
